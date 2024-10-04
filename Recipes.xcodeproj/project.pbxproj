@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		490BFEE72CADF30A005C90EC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 490BFEE62CADF30A005C90EC /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		490BFEB42CADE945005C90EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490BFEE72CADF30A005C90EC /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = Recipes;
 			packageProductDependencies = (
+				490BFEE62CADF30A005C90EC /* Kingfisher */,
 			);
 			productName = Recipes;
 			productReference = 490BFEA32CADE943005C90EC /* Recipes.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 490BFE9A2CADE943005C90EC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				490BFEE52CADF30A005C90EC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 490BFEA42CADE943005C90EC /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		490BFEE52CADF30A005C90EC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		490BFEE62CADF30A005C90EC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 490BFEE52CADF30A005C90EC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 490BFE9B2CADE943005C90EC /* Project object */;
 }
