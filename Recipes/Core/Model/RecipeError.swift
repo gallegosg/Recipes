@@ -19,7 +19,7 @@ enum RecipeError: Error {
         case .invalidResponse:
             return "Invalid response. Please pull to refresh"
         case .invalidData:
-            return "Invalid Data"
+            return "Invalid Data. Please pull to refresh"
         }
     }
 }

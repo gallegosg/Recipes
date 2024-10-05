@@ -33,9 +33,22 @@
 		490BFEBD2CADE945005C90EC /* RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		490BFF7F2CB07065005C90EC /* Exceptions for "Recipes" folder in "RecipesTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/Testing/MockURLSession.swift,
+			);
+			target = 490BFEB22CADE945005C90EC /* RecipesTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		490BFEA52CADE943005C90EC /* Recipes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				490BFF7F2CB07065005C90EC /* Exceptions for "Recipes" folder in "RecipesTests" target */,
+			);
 			path = Recipes;
 			sourceTree = "<group>";
 		};

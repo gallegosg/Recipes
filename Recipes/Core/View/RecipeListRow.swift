@@ -27,7 +27,7 @@ struct RecipeListRow: View {
             Spacer()
             if let sourceUrl = recipe.sourceUrl, let url = URL(string: sourceUrl) {
                 Link(destination: url) {
-                    Image(systemName: "arrowtriangle.forward.fill")
+                    Image(systemName: "chevron.right")
                         .foregroundStyle(.gray)
                 }
             }

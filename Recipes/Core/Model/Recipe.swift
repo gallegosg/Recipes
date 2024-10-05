@@ -11,7 +11,7 @@ struct Recipes: Codable {
     let recipes: [Recipe]
 }
 
-struct Recipe: Codable, Identifiable {
+struct Recipe: Codable, Identifiable, Equatable {
     let id: String
     let cuisine, name: String
     let photoUrlLarge, photoUrlSmall: String
