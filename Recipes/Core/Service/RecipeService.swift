@@ -2,7 +2,7 @@ import Foundation
 
 struct RecipeService {
     
-    //function to hit api using async await
+    //function to hit api
     func fetchRecipes(for urlString: String = K.allUrl) async throws -> [Recipe] {
         guard let url = URL(string: urlString) else {
             throw RecipeError.invalidURL

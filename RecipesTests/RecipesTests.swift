@@ -26,7 +26,6 @@ private let service = RecipeService()
     }
 }
 
-
 //test that view model state is updated when receving recipes
 @Test("Check view model state updates") func testViewModelState() async throws {
 

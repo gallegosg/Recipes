@@ -22,7 +22,6 @@ struct RecipeListRow: View {
                 Text(recipe.cuisine)
                     .font(.subheadline)
             }
-            Spacer()
                 
             Spacer()
             if let sourceUrl = recipe.sourceUrl, let url = URL(string: sourceUrl) {

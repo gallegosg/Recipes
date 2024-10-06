@@ -7,6 +7,7 @@
 
 import Foundation
 
+//made equatable for testing
 enum RecipeState: Equatable {
     case na
     case loading

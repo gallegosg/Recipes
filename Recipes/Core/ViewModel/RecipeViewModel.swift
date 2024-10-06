@@ -19,7 +19,6 @@ class RecipeViewModel: ObservableObject {
     
     func fetchRecipes() async {
         state = .loading
-        
         do {
             let recipes = try await service.fetchRecipes()
 
