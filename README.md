@@ -1,7 +1,7 @@
 # Steps to Run the App
-Clone Project
-Change Bundle ID
-Run
+1. Clone Project
+2. Change Bundle ID
+3. Run
 
 # Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 In general I wanted a well rounded app, but my largest focus would have been the project structure. It could have been in a file or two but I chose
