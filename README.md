@@ -5,8 +5,8 @@
 
 # Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 In general I wanted a well rounded app, but my largest focus would have been the project structure. It could have been in a file or two but I chose
-to structure it out in a MVVM architectural pattern. Having seperate views for various UI components also cleans up the code. I chose to focus on this because it organizes up the project 
-and would make scalability much easier.
+to structure it out in a MVVM architectural pattern. Having seperate views for various UI components also cleans up the code. I chose to focus on this because it organizes up the project by seperating 
+logic from the views and makes scalability easier.
 
 # Time Spent: Approximately how long did you spend working on this project? How did you allocate your time?
 I spent around 4 hours on this. An hour to setup the project and have it receiving data, half hour handling errors, an hour and a half to get the searching, design, navigating, working out bugs and wrapping it up, and an hour to handle the tests.
